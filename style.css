@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+ul li:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.container {
+    max-width: 1185px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+
+
+.header {
+    background: url(img/header-bg.png) no-repeat center top/ cover;
+    padding-bottom: 322px;
+    color: #fff;
+    min-width: 650px;
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.header a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+}
+.menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+}
+
+.offer {
+    margin-top: 321px;
+    color: #fff;
+}
+
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.1em;
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 17px 47px;
+    display: block;
+    max-width: 238px;
+
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: white;
+    color: #000;
+}
+
+
+section {
+    padding-top: 113px;
+}
+
+
+h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.67em;
+}
+
+.description h3 {
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+
+.desc-left {
+    max-width: 564px;
+}
+
+.desc-rigth {
+    max-width: 564px;
+}
+
+
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+/* @media (max-width: 1130px) {
+    .description {
+        display:inline-block;
+        box-sizing:border-box;
+    }
+    .gallery {
+        display:inline-block;
+        box-sizing:border-box;
+    }
+    section {
+        text-align: center;
+    }
+} */
+input[type="checkbox"] {
+    display: none;
+}
+.nav label {    
+    display: none;
+    border: 1px solid #fff;   
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nav label:hover{
+    color: #f00;
+    border: 1px solid #f00;
+}
+
+
+/* @media screen and (max-width: 767px) {
+    
+    .nav label{
+         display: inline-block;
+    }
+    .nav > ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+        display: block;
+    }
+    
+} */
+
+.footer-text {
+    font-size: 15px;
+    font-family: 'Open sans', sans-serif;
+    display: flex;
+    padding: 114px 0;
+}

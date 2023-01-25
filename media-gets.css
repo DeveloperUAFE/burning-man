@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    
+    .nav label{
+         display: inline-block;
+    }
+    .nav > ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+            display: flex;
+            flex-direction: column;
+        }
+        ul li:hover {
+            border-bottom: 2px #fff solid;
+        }
+
+    .about {
+        min-width: 650px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .description {
+        display:inline-block;
+        box-sizing:border-box;
+    }
+    .gallery {
+        display:inline-block;
+        box-sizing:border-box;
+    }
+    section {
+        text-align: center;
+    }
+}
